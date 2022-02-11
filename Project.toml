@@ -1,6 +1,6 @@
 name = "LAMMPS_jll"
 uuid = "5b3ab26d-9607-527c-88ea-8fe5ba57cafe"
-version = "1.0.1+2"
+version = "2.2.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
