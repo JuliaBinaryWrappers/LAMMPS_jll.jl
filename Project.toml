@@ -1,6 +1,6 @@
 name = "LAMMPS_jll"
 uuid = "5b3ab26d-9607-527c-88ea-8fe5ba57cafe"
-version = "2.2.1+0"
+version = "2.2.1+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
