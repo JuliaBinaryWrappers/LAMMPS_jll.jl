@@ -3,11 +3,12 @@ export liblammps, lmp
 
 using CompilerSupportLibraries_jll
 using MicrosoftMPI_jll
+using MPIPreferences
 JLLWrappers.@generate_wrapper_header("LAMMPS")
 JLLWrappers.@declare_library_product(liblammps, "liblammps.dll")
 JLLWrappers.@declare_executable_product(lmp)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, MicrosoftMPI_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         liblammps,
         "bin\\liblammps.dll",

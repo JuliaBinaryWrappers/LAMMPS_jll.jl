@@ -18,7 +18,7 @@
         elseif binary == "OpenMPI_jll"
             "OpenMPI"
         elseif binary == "MPItrampoline_jll"
-            "MPIwrapper"
+            "MPItrampoline"
         else
             error("Unknown binary: $binary")
         end
@@ -32,5 +32,3 @@
     function augment_platform!(platform::Platform)
         augment_mpi!(platform)
     end
-
-
