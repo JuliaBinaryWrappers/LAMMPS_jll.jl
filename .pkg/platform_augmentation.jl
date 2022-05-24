@@ -4,13 +4,19 @@
     const preferences = Base.get_preferences(MPIPreferences_UUID)
 
     # Keep logic in sync with MPIPreferences.jl
-    # FIXME: When MPIPreferences is registered both `binary` and `abi` should be const
-    #        and the jll packages using this tag shall depend on MPIPreferences.jl
     function augment_mpi!(platform)
+        # Doesn't need to be `const` since we depend on MPIPreferences so we
+        # invalidate the cache when it changes.
         binary = get(preferences, "binary", Sys.iswindows() ? "MicrosoftMPI_jll" : "MPICH_jll")
 
         abi = if binary == "system"
-            get(preferences, "abi")
+            let abi = get(preferences, "abi", nothing)
+                if abi === nothing
+                    error("MPIPreferences: Inconsistent state detected, binary set to system, but no ABI set.")
+                else
+                    abi
+                end
+            end
         elseif binary == "MicrosoftMPI_jll"
             "MicrosoftMPI"
         elseif binary == "MPICH_jll"
