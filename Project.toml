@@ -1,10 +1,9 @@
 name = "LAMMPS_jll"
 uuid = "5b3ab26d-9607-527c-88ea-8fe5ba57cafe"
-version = "2.3.0+1"
+version = "2.3.2+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
