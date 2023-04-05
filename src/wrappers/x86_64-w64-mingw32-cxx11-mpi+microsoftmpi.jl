@@ -3,7 +3,6 @@ export liblammps, lmp
 
 using CompilerSupportLibraries_jll
 using MicrosoftMPI_jll
-using MPIPreferences
 JLLWrappers.@generate_wrapper_header("LAMMPS")
 JLLWrappers.@declare_library_product(liblammps, "liblammps.dll")
 JLLWrappers.@declare_executable_product(lmp)
