@@ -7,7 +7,8 @@ const preferences = Base.get_preferences(MPIPreferences_UUID)
 function augment_mpi!(platform)
     # Doesn't need to be `const` since we depend on MPIPreferences so we
     # invalidate the cache when it changes.
-    binary = get(preferences, "binary", Sys.iswindows() ? "MicrosoftMPI_jll" : "MPICH_jll")
+    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.
+    binary = get(preferences, "binary", Sys.iswindows(platform) ? "MicrosoftMPI_jll" : "MPICH_jll")
 
     abi = if binary == "system"
         let abi = get(preferences, "abi", nothing)

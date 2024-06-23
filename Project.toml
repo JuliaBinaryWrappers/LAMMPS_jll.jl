@@ -1,6 +1,6 @@
 name = "LAMMPS_jll"
 uuid = "5b3ab26d-9607-527c-88ea-8fe5ba57cafe"
-version = "2.4.0+0"
+version = "2.4.1+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
@@ -19,4 +19,8 @@ MicrosoftMPI_jll = "9237b28f-5490-5468-be7b-bb81f5f5e6cf"
 JLLWrappers = "1.4.0"
 julia = "1.6"
 MPIPreferences = "0.1"
-MPItrampoline_jll = "^5.0.1"
+LazyArtifacts = "1"
+Libdl = "1"
+MPItrampoline_jll = "5.0.1 - 5"
+TOML = "1"
+Artifacts = "1"
