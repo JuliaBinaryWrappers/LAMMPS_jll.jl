@@ -1,522 +1,522 @@
 [[LAMMPS]]
 arch = "aarch64"
-git-tree-sha1 = "1f6597bdb9cb7c2e89a693e3d8f7081d2fcf1ce1"
+git-tree-sha1 = "2fdea34019158dcf26de4b1e91b8585a21c94ef1"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[LAMMPS.download]]
-    sha256 = "7fef741c79f06329a041b63a23683f9b0e63392f2f8ec108ebba28270975c305"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "ff74aeb40386a7e92f29c477b63ff74d88fee5d5fcc5228d28d25996ee6ddd72"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
-git-tree-sha1 = "9cb4fef52ba0f62d93c26fb3465fbab227af285c"
+git-tree-sha1 = "8302ce228f91683b09fed2ba68f5bf07c49773bb"
 lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[LAMMPS.download]]
-    sha256 = "a0238fb47eacd99d52c2eec9ee15aa96f23735032391cc013c899509049adda3"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+    sha256 = "50cb74b70b1d131afd45212aba2ad2100cf2ca4c100d04c95b498d8d1d2de4d9"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
-git-tree-sha1 = "a274e4e7313deeee824893efd7961b08263d185d"
+git-tree-sha1 = "d78a92aef56ff89cbe09949c31a966fa1b62ddf1"
 lazy = true
 mpi = "openmpi"
 os = "macos"
 
     [[LAMMPS.download]]
-    sha256 = "47e3182c608107f20d2419a77bebe7a3e76e8c78ef79cb0b04616c536fe7cd5d"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+    sha256 = "940b170427d233718fb16d84ddbee90cb3d6dbf50ab6b5f756e782ed37e53b10"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-apple-darwin-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b70fd2c7d7af12710509813c63ec3e84caf46d92"
+git-tree-sha1 = "3b0ece58beaef24fd755e6b7f36ad74ae3caa1cf"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "cf4272b80420beb0dd684fefc56993f4f7b64265deca75d97312a5d09d4208e0"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "71e88dbf91db1b68e14ed19ffb1bf320a9cd47dc95d08042580c7bfcccb064ef"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-linux-gnu-cxx03-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "02dd9fa9eaec16ca60a5541e129cddd6aa327da2"
+git-tree-sha1 = "19e846ccf1d5ac591e506c85daecbf3f20d0766f"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "0e16fd66728f1b3d2d732a23a5d79ef4995c424832a8445b2fb73ee4e64f4ffe"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+    sha256 = "0e0b26d297f30f11339191af9efe47d77899ac327ce67338353b3c76180bda1a"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1ef6485b6d99a698e5e1dcb44b4a713491081751"
+git-tree-sha1 = "1305fbba34152a8e8a645c16f13460c43ed7f095"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "1ec49318056e099fcd422788a2871806feb523e917ac1cb892140511ac0cf684"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "dd9d64fa7f4c622f0cb5cafce6b65077e6b518f82c7a1620f4b61d105b6af4bc"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a6ba648fe0de87da383dbd40a8852f45fb8237dc"
+git-tree-sha1 = "4d35ad3396dfb9287dd5ebfa3d1383b7f8af4b72"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "ded2fc413b1c4b2a8063e6eba9afac7351bbdbbb629c0be88a0ada892a755720"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "248c388daaff9ad5d5ceb76b673f78b4236226d95e0f17161ca075b33db38fcd"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "22fd15e8ad83be4e04e1a09d74f5a786b7b5ddba"
+git-tree-sha1 = "13eb0f1abd5c481766ee7f1a8159a053f984c180"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "8d435e6a03fa73c80d7d186c1b44b53802676faefb1ce1a394a3a95d16c15cdb"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+    sha256 = "836a542b401f7640e4a02c9dbd3af8370ddf69649873afd98520ef9b71a75ceb"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5d6e85413210ff56d7f3505b895137ab78a2cb9a"
+git-tree-sha1 = "7a92a086a0426c4aadb59e4a5f585d2848e23ec0"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "044fe2359c6cfcffc7a730dd4b31577d63dc7b826b4bfdca6fd4cc9a7c605da4"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+    sha256 = "8450be6b4ca7c776bf9254e16b8c87ef6d34f03e81fb503a4b782d2196b691f9"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d5e2a5fce6985bf75a2c3ff8b92fac64ddd6333e"
+git-tree-sha1 = "87d963ede8de717ad4202709ebd44835a1bc1320"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "1bb302d378b9245277ef66ffab8bb30aa64fff6d7a99ad85e43053bf292a0e0f"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv6l-linux-gnueabihf-cxx03-mpi+mpich.tar.gz"
+    sha256 = "7b73b1e09594057568c5b3c0d32f7c1d725c8ed6bfac3b0eb17ba5b4a3c82d24"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv6l-linux-gnueabihf-cxx03-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e046443c0642e6e37c5ce6f79bb4aba933ccacee"
+git-tree-sha1 = "808e592fa645121fed8b30278e4cde0772847e4e"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "a2dde570d9b853295a661d0a2921826f38a7d585eb242608c6499671e2fbe54b"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv6l-linux-gnueabihf-cxx03-mpi+mpitrampoline.tar.gz"
+    sha256 = "98b1ec10a9503e160cf5094f963955ec1855cd007cedf8e1ebd3ca26634f2b41"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv6l-linux-gnueabihf-cxx03-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "699d5a603310eaf4cd2c7b5859c7268f5f647d9f"
+git-tree-sha1 = "3d3ab7f1263da3c9bc4969f5c2e6279840e9e838"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "b5a2f97d2e20969cb096374472dc5c9b0ebb0fe564e15fea800b67610b5b6046"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv6l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
+    sha256 = "45ce973f2cbf0f6ef877e725f570d796baa3c303634ac0e843ef85d1b123e3b1"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv6l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e0a83f64b94f345eba57e5bf4c43416ebdf62963"
+git-tree-sha1 = "c43e8078d2e04339cbe3db652fec084dc6c871df"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "48215d6a878ff1a5bec8f7b61c2bcc9f7053f51d5f325ebbb8546780c8c2c85b"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv6l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
+    sha256 = "04a9881e9c013f4656181c25ffeae66a08fec3558ebc9b9370e0090e163b76f6"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv6l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "16857ca61a1d5c2f4907ef4775185a1140227c19"
+git-tree-sha1 = "2f56cd5694bbf5549822cb24fc604573c9a06f55"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "400cf3002b3bf346feacf6c0f732ac5c66b39f39ba4c377c4d7bdc48f4be1210"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv7l-linux-gnueabihf-cxx03-mpi+mpich.tar.gz"
+    sha256 = "ff1e127cb122a9bcc1f3b55dd8992f91d37f6cf4801a02d1bfa1ffe51832efef"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv7l-linux-gnueabihf-cxx03-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "eda8314a706fa901b9e8cf7ce43fb23521067aba"
+git-tree-sha1 = "f2074237a9d06d5bbdeff9550f950a6b7bbd3865"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "3d970c6c59a658d6541a4a1797b379a851cfd884a7ef009c8b9e9eb19145a304"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv7l-linux-gnueabihf-cxx03-mpi+mpitrampoline.tar.gz"
+    sha256 = "ea2c6885a4cff2653666dd0daa37f7139108b5b3441160ffd145c858242a5e4d"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv7l-linux-gnueabihf-cxx03-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "858c8cc466fe7c9114700d28daa8ee44f474012b"
+git-tree-sha1 = "8688be8feda9235a260f62945c20abc6e9632a52"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "f1ca0991a4821920bed4deb63a56509d67e87a120373992f14e2dc91ddf8cb74"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv7l-linux-gnueabihf-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "362778eda8062faa59437bb44b66d0f182c70378677ca8bb93faf7da9f832110"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv7l-linux-gnueabihf-cxx03-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8219649b6eb20ca64dcdfcb659c441756df94f69"
+git-tree-sha1 = "14cc93b5055bea7cca8e007bb7b972a703bb092f"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "13a9a25f85a46fdf2564d3742ae51e6bf674ebbc2440e830479a0a690434ec44"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv7l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
+    sha256 = "54418a66b3a3692c3345d7e7f25aa9f342b81c08dac5a824f4635569ee7fd20d"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv7l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d57c699ac290ab7449ae7f30b9774a7187693ea2"
+git-tree-sha1 = "9f2bf2692bfedb250564e9f98e6e479607f989a4"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "4c3889876bbe222e399fe930480617d7135ac9f7e39b033a6b5e91304d3c3b21"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv7l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
+    sha256 = "500d52ec3b64939913780877122402ad3b156d7740e7ddae4797921067dbc608"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv7l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "490db10bdd4084d03a7379f440d3e7bd232bae3c"
+git-tree-sha1 = "c3c03c1efc832aff5ad31922c3b082726bf41cf5"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "a284634a7dfd4a92caff6cdfe812bf581addfcdf1b0b805a574589939ae42fbf"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.armv7l-linux-gnueabihf-cxx11-mpi+openmpi.tar.gz"
+    sha256 = "c7a2550ba1c050ac9ff9fc3060fa6686b1b198adf413d83e4c7b293c951f8672"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.armv7l-linux-gnueabihf-cxx11-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "684663d4b23e2220deab5dd89769c55825fe130a"
+git-tree-sha1 = "138fe42ae30c81df02e60de8aee8cba96d3314e0"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "34e55f9927ae44938707f0d3ff1e44a61e144db92c93a17c3533fc0a18d08642"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "2149b24bff4d533cbcddaf3de35ed81126b65d810af569a2ac57caecab642590"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-linux-gnu-cxx03-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "144739a9675991cb42da081e47bd977eb14ef8de"
+git-tree-sha1 = "85d4763dbb68266853436f2aeb8fc098fb928f5d"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "fbe3de89c4d28c4f10688cc8f88f411c85f3461a80fab326386e79a4132533a7"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+    sha256 = "1ec8ddaf5b2ea389daf68a69c6890263590375cc1d7e32654a70e84c29465ff0"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "afa64773b80472f4d534e689063c026460ba9b3c"
+git-tree-sha1 = "d3a7a4b7fe8555528ab6c68116b75286b4f10947"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "cb35cfbd4a4c8614c8d7ac42c60b40782dcae9f05d1f6c160e2fa1b54612159f"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "54e76882a83e8fc8386b8294d8c2ff125f05d0364206f28c21f9761ea126f47f"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-linux-gnu-cxx03-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5b5c1a29516955d726eb3c9467294f8a21d371c8"
+git-tree-sha1 = "ad628e8768da7f02bb65bad02714a0c4c2f4c1a8"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "9beee81325c5f8e7de6d9741c8a01d44cf724486fb0bb90b6065e4ded932c213"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "5b48b9952c81e7bac3f28726de8b36ae10345a547f0df065fc576ed36feefde7"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "faf3a027db0e46ae12bf01c5d997abfe777521d6"
+git-tree-sha1 = "bb58670be37817d0efaabeeffabce42ceb2b1ba6"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "de1a3208bf423b4dc617a96a2c220c4c8a419247770a1c7ac7737a84531bfab1"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+    sha256 = "addf2a76509ac1791a0fbe9eaf00730973f6fb30c67c57d237a1fd7b939cce86"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4588a1c5e20b3ec3ee40db7a3fc081eaf9110651"
+git-tree-sha1 = "7dd9a0ed0bb42087a1aa6869d80b32d78fe07cd8"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "6429cb108f737c9ab0d57e9b3e1e424e1d8df83b9050cfbe224976797ecc3309"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+    sha256 = "0e6412ee1c3bd593516832d9b207fc389088fe046ba7075a1fb31ab70c131e46"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e5c12d6c0167ce3b7b5e8b916cfdd059161f32f6"
+git-tree-sha1 = "69b50fc808f025c0ca0b40fb0512f6c2266f55f7"
 lazy = true
 mpi = "microsoftmpi"
 os = "windows"
 
     [[LAMMPS.download]]
-    sha256 = "6072a965586f2e92ab8b41bd263087d53b7f43c9adf9868d02074cdb534d2937"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
+    sha256 = "0e3b3438553d660095e70bd4186e50200980b18959d1efd1aa43bb9b20d99c0c"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
 [[LAMMPS]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1f2fd279740248e16113afa23f238bd3f0105ee4"
+git-tree-sha1 = "7a9e1bb2260a65e58723d89e012270af84f336f8"
 lazy = true
 mpi = "microsoftmpi"
 os = "windows"
 
     [[LAMMPS.download]]
-    sha256 = "90ed7acbee0c9c983ea926452f20ef644cfe3e08dc105b4832785dd90a780cd9"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.i686-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
+    sha256 = "f1219cdd805e8c808417bd423c062ba1cebb805cec165e4f969dcefc295bd9eb"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.i686-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "04d55f2fdd346f40663a31c35d2ba8b218b059b0"
+git-tree-sha1 = "1c3b187fd43e5f7380fbac7941db3f7174a0ae95"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "592339fcdc2d339c04dcaf5c03f5d7aa9c5e02c9f2ac2441dd2d77dabb8d745a"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.powerpc64le-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "62abac6feb78842df6f38fabd383c9fe1196064111920e89810eac7d9f94a9ca"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.powerpc64le-linux-gnu-cxx03-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "315bc8c87aa50a375b445eb9bafe165393383b26"
+git-tree-sha1 = "4896bf2d2b91b976cb0607fa212c456c3a730ae3"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "628c5c6160ffcdec9e3692c914184ec2b3fc92f5d145171ddacfd0843003012f"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.powerpc64le-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+    sha256 = "c96b4b86f384e1d03e3b7a605961056505d261de9b28a0ab8eabfb7f635a7c5d"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.powerpc64le-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b02b35db0748271022df09177c1892c63efedf60"
+git-tree-sha1 = "d8d8bd92f404cb8ce1bc1b93be7d44260568a12c"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "898dabe327edaf4a0732d303381d815bca3aba6641885ba6fcf599d9b6e4bd8d"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.powerpc64le-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "f580f1421ae8c58239c003c540f6b5318c8e1868a7aff2c9ea753a5648f5212b"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.powerpc64le-linux-gnu-cxx03-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6f167f49d34cfbd079efcd69c35eb9ed3fae1a41"
+git-tree-sha1 = "f3d4134ec93b3c3d41a030ca35ff9de3a0042f12"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "28d7dd5a8380d1fbaf8a922a11691ea5db432d631b28d99cfb1859c9d0e31d4d"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "3435fe47e0bd76dee62a93fcdea9d699afb3656db15fb14311a04bc99859af9c"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f6a965eef883a42762126aa1e0b94f519c255c26"
+git-tree-sha1 = "b228ae050fd1b963a0cf3651dec1f3f715c3c5d2"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "2766c2ce8e621cf66d65c7c4e3d4116a81746a75cfff1d4fdf0e0fd422c22ec3"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+    sha256 = "03fe94b3adc5fcae44a384ae0f5d7f66496e51f44be55fcf79c5fc6ad534822a"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "66a345f92599e42f9468b37297b2fb0629aeff73"
+git-tree-sha1 = "22c7623853c05a08944384b3ea8f828a5b4a7a43"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "212b02adbe5881c3db648f4c818b1adffe9ebdbbb9ec4bcf0fcd9f35294aa7ae"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+    sha256 = "e79b9e0be7a835e8c2f602d6f2551016a39108fbe8451822b3071c797aa1863b"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
-git-tree-sha1 = "70ead977eeeb06b99c47c04ed4485cf734c769c2"
+git-tree-sha1 = "bb3a9288f6e094d29a4ee42a99b78a470a2be4ea"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[LAMMPS.download]]
-    sha256 = "aba277592d84c704f44497f2a84cbd21c6ceba0c460375a2373fcd67d2dd00d0"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "3482faf0484c5ece60db459657c8436f5a02fec2a52133b4aaa495d63734e42b"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
-git-tree-sha1 = "6165d1f6814324a0680567a101afd98eb21eecdd"
+git-tree-sha1 = "34bf857b19c8b0e9385144dec79e1ddee9bdeeff"
 lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[LAMMPS.download]]
-    sha256 = "429f0458c9e547d8284e9b955c4acb2400a15909095a147fda0194faf89cf02f"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+    sha256 = "c1fdeb0b00a840a8d410cda75ae8ae4239cd122ac27c358d3f2ef3a6a4488ed2"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
-git-tree-sha1 = "32c6693f9de67bd9bd4069ba4fd87c74863600d7"
+git-tree-sha1 = "c6b7ef5d4eb51b16a3f9708c5aeb5724edb5cf1b"
 lazy = true
 mpi = "openmpi"
 os = "macos"
 
     [[LAMMPS.download]]
-    sha256 = "f40a2023fcc73bc7a8e83d27a9c12a72bb184ec16518ec25e13cb0289d687177"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+    sha256 = "d2656babe1615a249aaa302dca7e0c188c8d4ddbc1b81f1798ca9add74724b62"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-apple-darwin-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6f55a970951b30f2956f476cdf1b45b5f8924475"
+git-tree-sha1 = "f44867e4969499b31f3457d4e9770e1a87ba11e4"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "316dd7b9cd1ca38f927c41a507db925c04b9f81c200414f7af918f23c2959711"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "1698f541e786c1ce46edf18026859ee9482d137db74a3a4e7b9fe8dca9f9faf7"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "91c96110bc64915d533da027048b90582b631939"
+git-tree-sha1 = "e0b0232052aaf889dae8ad85615d3318e2b3cc25"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "1f0bae07ce2f5b808dde33b4790c92fd827a047beaeb3ae23b21bc897d42353a"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+    sha256 = "21907238c38c7d5042ffc7992c640008888bc5598f7969e8363914960befb004"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "976f41a59c1e40ef565e821aff54e18ab0c35588"
+git-tree-sha1 = "a236375fd5fa273f748e86683709ec5693d99f12"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "c8ac268d867893c4f05b70e69749282c2ba8841c7a194b4696ef33a05626e555"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "c0c4ddc6f9a3c15e170b7d09a779cd390ea2ca0281ee708dd42b0d5b2d630004"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c864d892690a4a569c8d81fb695d9b7eac726f08"
+git-tree-sha1 = "34f3a7a4f1731175f0df7dbd46d54126f1e101a9"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "4958ff10e311faad0e36f4f506c965755339c82d377f70a81a977aa90030d858"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "9e448befe08204c38ecb725728401319688961bbbf4632f24e22f8bfb218f440"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "134ae716f1536f7342625db09e27b56d8c388917"
+git-tree-sha1 = "702c56110576a10c848ade3edfc851d11311b870"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "766dfdcfb6f2d8e8659ee5b48580cc339f03bb655ad3b4ca1d898be08da2f915"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+    sha256 = "e5b4ae01d17a79a9d3ce223f05f19eb276fc7a9505f13bd378b88ec93d2fb1bd"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f33fffede61cd0349e4adf0d4d068e968058eacd"
+git-tree-sha1 = "4f15dbea50666c9a3f104e85262462a28a558966"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "8f003f0d2b81a1bf000dac38895148499e189e9370cc107986336639b0448122"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+    sha256 = "6cf07eae2467797cae90151b3452724831e17ed0dc8afa08dc8c9108f42decc6"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "08db7be257f4e7a6b4e8fbe1bf6875b1da5cdc08"
+git-tree-sha1 = "90ad653aa63788c457f6e5a623dbbcabadff235a"
 lazy = true
 mpi = "microsoftmpi"
 os = "windows"
 
     [[LAMMPS.download]]
-    sha256 = "901619ace011b624191c7882e531b1ec0cefa06b9a4b6e93f0d4d29e46723961"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
+    sha256 = "ff128146ec039ddc539c42dab0148f34c1c3a3a6d8a49d7ad5d9ca0f768f5879"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c8798b5faa6e75a5a302c1f5e7b98ea6e49ca3a0"
+git-tree-sha1 = "00d7b51eda297e017bb9eed900cf2562cdd3dba2"
 lazy = true
 mpi = "microsoftmpi"
 os = "windows"
 
     [[LAMMPS.download]]
-    sha256 = "eb76f05e218a37a92c7601bcadf6d958636a881ed138c3acf434c2721d9f5032"
-    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.5.2+0/LAMMPS.v2.5.2.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
+    sha256 = "6eae327e6c0223de1ca16130f6676fb34347d6567e159822716c4706f92e91aa"
+    url = "https://github.com/JuliaBinaryWrappers/LAMMPS_jll.jl/releases/download/LAMMPS-v2.6.0+0/LAMMPS.v2.6.0.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
