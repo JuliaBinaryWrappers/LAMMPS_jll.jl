@@ -2,12 +2,14 @@
 export liblammps, lmp
 
 using CompilerSupportLibraries_jll
+using libblastrampoline_jll
+using FFTW_jll
 using OpenMPI_jll
 JLLWrappers.@generate_wrapper_header("LAMMPS")
 JLLWrappers.@declare_library_product(liblammps, "liblammps.so.0")
 JLLWrappers.@declare_executable_product(lmp)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenMPI_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, FFTW_jll, OpenMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         liblammps,
         "lib/liblammps.so",
