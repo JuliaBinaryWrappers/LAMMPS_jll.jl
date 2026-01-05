@@ -8,5 +8,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("LAMMPS")
-JLLWrappers.@generate_main_file("LAMMPS", UUID("5b3ab26d-9607-527c-88ea-8fe5ba57cafe"))
+JLLWrappers.@generate_main_file("LAMMPS", Base.UUID("5b3ab26d-9607-527c-88ea-8fe5ba57cafe"))
 end  # module LAMMPS_jll

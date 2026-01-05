@@ -90,6 +90,8 @@ function augment_mpi!(platform)
         "MicrosoftMPI"
     elseif binary == "MPICH_jll"
         "MPICH"
+    elseif binary == "MPICH_CUDA_jll"
+        "MPICH"
     elseif binary == "OpenMPI_jll"
         "OpenMPI"
     elseif binary == "MPItrampoline_jll"
